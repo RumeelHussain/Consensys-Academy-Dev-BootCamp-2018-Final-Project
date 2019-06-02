@@ -1,0 +1,30 @@
+# build folder
+build
+**/build
+
+# WebStrom indexes idea
+.idea
+**/.idea
+
+# Visual Studio indexes vscode
+.vscode
+**/.vscode
+
+# logs
+*.log.*
+**/*.log.*
+**/*.log
+
+# blocks
+**/*.block
+
+# package lock
+*-lock.json
+**/*-lock.json
+
+# node modules
+node_modules
+**/node_modules
+
+# frontend build 
+build_webpack/

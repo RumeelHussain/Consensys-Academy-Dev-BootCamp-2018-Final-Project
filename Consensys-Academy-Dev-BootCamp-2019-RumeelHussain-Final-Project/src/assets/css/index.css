@@ -1,0 +1,299 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.content{
+  padding-bottom: 81px;
+}
+.align-center {
+  text-align: center;
+  color:f26224;
+}
+.header-img {
+  width: 100px;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+
+}
+.header-img1 {
+  width: 28px;
+  margin-right: 10px;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+
+}
+
+
+.container {
+  box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  margin-top: 25px;
+}
+.italic{
+ font-style: italic;
+ color: #495c74;
+}
+.width-100{
+  width: 100%;
+}
+.pointer{
+  cursor: pointer;
+}
+.error-msg {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-weight: lighter;
+  text-align: left !important;
+}
+.min-width-130{
+  min-width: 130px;
+}
+.content > .container {
+  padding: 30px;
+}
+.padding-40 {
+  padding: 40px;
+}
+.padding-top-15 {
+  padding-top: 15px;
+}
+.avatar-size{
+  max-height: 150px;
+  max-width: 300px;
+}
+.margin-left-12{
+  margin-left: 12px;
+}
+.btn{
+  border-radius: 0 !important;
+}
+.padding-bottom-16 {
+  padding-bottom: 16px;
+}
+.progress{
+  border-radius: 0 !important;
+}
+.card{
+  border-radius: 0 !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.float-right{
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.doc-count{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: darkgray;
+}
+.unit{
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: darkgray;
+}
+.margin-right-12{
+  margin-right: 12px;
+}
+.margin-bottom-12 {
+  margin-bottom: 12px;
+}
+.Pending{
+  color: #f7bc07 !important;
+}
+.Rejected{
+  color: #d62f41 !important;
+}
+.Verified{
+  color: #22a340 !important;
+}
+
+.bg-clr{
+background-color:#3e3e3e !important;
+}
+
+.custom-h3 {
+  color:#3e3e3e;
+  margin-top: 20px;
+}
+ .custom-img{
+width: 40%;
+height: 0%;
+margin-top: 50px;
+
+
+ }
+
+ .custom-link{
+   color:#fff;
+ }
+
+ .custom-h1{
+   color:#3e3e3e;
+ }
+ .custom-h2{
+  color:#3e3e3e;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+ .custom-acc{
+   color:#3e3e3e;
+   margin-top: 1.5%;
+ }
+.btn-verify{
+  color:#3e3e3e;
+}
+.custom-login{
+  color:#3e3e3e;
+  margin-bottom: 5%;
+}
+.custom-acc1{
+  color:#3e3e3e;
+  padding-top: 8px;
+  padding-right: 2px;
+  margin-left: 80px;
+}
+.btn-login{
+  margin-top: 50px;
+  color:#3e3e3e;
+}
+.custom-p{
+  color:#333;
+}
+.centered-img1 {
+  margin-left: 530px;
+  margin-top: -300px;
+  font-size:3.5vw;
+  position: top;
+}
+.container-img1 {
+  position: fixed;
+  color:#3e3e3e;
+  font-size: 50px;
+}
+.custom-t{
+  color:#3e3e3e;
+}
+.custom-p{
+  color:#3e3e3e;
+  
+}
+.custom-footer{
+  color:#fff;
+}
+.custom-product{
+  color:#4D5656;
+  font-size: 20px;
+  margin-left: 790px;
+}
+.custom-bullet{
+  color:#4D5656;
+
+}
+.collapse{
+  min-width: 360px;
+}
+.header{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3e3e3e;
+  
+}
+.responsive {
+  
+  width: 40%;
+  height: auto;
+  margin-top: 120px;
+  float: left;
+ 
+}
+
+.responsivetexta {
+  width: 60%;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 250px;
+  float: right;
+  color: #3e3e3e;
+}
+.responsivetextb {
+  width: 60%;
+  color:#4D5656;
+  height: auto;
+
+  font-size: 18px;
+  float: right;
+  text-align: center;
+}
+.bg-verify{
+  background-color: #007a1d !important;
+}
+.bg-rejected{
+  background-color: rgb(156, 20, 20) !important;
+}
+.bg-pending{
+  background-color: #3e3e3e !important;
+}
+.bg-pendload{
+  background-color: #da8059 !important;
+}
+.bg-rejectload{
+  background-color: rgb(141, 43, 43) !important;
+}
+.bg-verifyload{
+  background-color: #51af67 !important;
+}
+.custom-name{
+  color:#4D5656;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.transhead{
+  text-align: center;
+  color: #4D5656;
+}
+.number{
+  width: 8%;
+}
+.transaction{
+  width: 60%;
+}
+.gas {
+  width: 12%;
+}
+.no{
+  text-align: center;
+  color: #3e3e3e;
+}
+.no1{
+  text-align: center;
+  
+}

@@ -1,0 +1,58 @@
+{
+  "extends": "default",
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "max-line-length": [
+      "error",
+      120
+    ],
+    "avoid-suicide": "error",
+    "avoid-sha3": "error",
+    "reentrancy": "error",
+    "avoid-throw": true,
+    "var-name-mixedcase": true,
+    "func-param-name-mixedcase": true,
+    "reentrancy": true,
+    "func-visibility": true,
+    "check-send-result": true,
+    "avoid-call-value": true,
+    "compiler-fixed": true,
+    "compiler-gt-0_4": true,
+    "no-complex-fallback": true,
+    "mark-callable-contracts": true,
+    "multiple-sends": true,
+    "no-simple-event-func-name": true,
+    "avoid-tx-origin": true,
+    "no-inline-assembly": true,
+    "not-rely-on-block-hash": true,
+    "avoid-low-level-calls": true,
+    "func-name-mixedcase": true,
+    "func-param-name-mixedcase": true,
+    "var-name-mixedcase": true,
+    "event-name-camelcase": true,
+    "const-name-snakecase": true,
+    "modifier-name-mixedcase": true,
+    "contract-name-camelcase": true,
+    "use-forbidden-name": true,
+    "visibility-modifier-order": true,
+    "imports-on-top": true,
+    "two-lines-top-level-separator": true,
+    "func-order": true,
+    "quotes": true,
+    "no-mix-tabs-and-spaces": true,
+    "bracket-align": true,
+    "array-declaration-spaces": true,
+    "separate-by-one-line-in-contract": true,
+    "expression-indent": true,
+    "statement-indent": true,
+    "space-after-comma": true,
+    "no-spaces-before-semicolon": true
+  }
+}

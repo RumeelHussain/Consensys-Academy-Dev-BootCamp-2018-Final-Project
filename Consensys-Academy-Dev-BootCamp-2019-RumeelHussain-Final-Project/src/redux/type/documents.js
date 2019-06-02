@@ -1,0 +1,20 @@
+export default {
+  verifiers: 'VERIFIERS',
+  verifiersRejected: 'VERIFIERS_REJECTED',
+  verifiersDone: 'VERIFIERS_FULFILLED',
+  create: 'DOCUMENT_CREATE',
+  createRejected: 'DOCUMENT_CREATE_REJECTED',
+  createDone: 'DOCUMENT_CREATE_FULFILLED',
+  requesterDocs: 'REQUESTER_DOCUMENTS',
+  requesterDocsDone: 'REQUESTER_DOCUMENTS_FULFILLED',
+  requesterDocsRejected: 'REQUESTER_DOCUMENTS_REJECTED',
+  verifierDocs: 'VERIFIER_DOCUMENTS',
+  verifierDocsDone: 'VERIFIER_DOCUMENTS_FULFILLED',
+  verifierDocsRejected: 'VERIFIER_DOCUMENTS_REJECTED',
+  verifyDocs: 'VERIFY_DOCUMENTS',
+  verifyDocsDone: 'VERIFY_DOCUMENTS_FULFILLED',
+  verifyDocsRejected: 'VERIFY_DOCUMENTS_REJECTED',
+  getDoc: 'GET_DOCUMENT',
+  getDocDone: 'GET_DOCUMENT_FULFILLED',
+  getDocRejected: 'GET_DOCUMENT_REJECTED'
+}
