@@ -28,7 +28,9 @@ export default class Login extends Component {
     };
   }
   componentWillMount() {
+    
     this.state.web3.eth.getAccounts((error, accounts) => {
+     
       this.setState({accounts: accounts});
     });
   }
@@ -44,8 +46,8 @@ export default class Login extends Component {
       [e.target.name]: e.target.value
     });
   };
-
   render() {
+console.log(this.state.accounts)
     if(this.props.user.loading)
       return (<Loader/>);
     if(this.state.redirect)
